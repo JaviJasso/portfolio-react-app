@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+
 export default class BaseLayout extends Component {
   render(){
   return (
     <div>
       <nav>
         <div>
-          <ul>
+          <ul className="navbar">
             <li>
               <Link to="/">Home Alone</Link>
             </li>

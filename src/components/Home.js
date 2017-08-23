@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class Home extends Component {
   render(){
     return(
-      <div>Homie Garreto/Javito/CodyCodes Choice lige Yo</div>
+      <div className="alone">Getting it Done</div>
     )
   }
 }
